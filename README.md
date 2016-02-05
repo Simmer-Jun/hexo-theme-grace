@@ -9,7 +9,7 @@ An simple hexo theme.
 
 ## Preview 
 
- - ![预览](source/images/demo2.png)
+ - ![预览](source/images/demo1.png)
  - ![预览](source/images/demo3.png)
 
 ## Begain 
@@ -19,7 +19,7 @@ An simple hexo theme.
 ```bash
 $ cd your-hexo-site
 
-$ git clone https://github.com/iissnan/hexo-theme-grace
+$ git clone https://github.com/Simmer-Jun/hexo-theme-grace
 
 // install jade template 
 npm install hexo-renderer-jade --save     
@@ -36,6 +36,6 @@ npm install hexo-renderer-jade --save
 
 欢迎使用你的新主题
 
-## LISCENSE
+## LISCENSE (MIT)
 
 See [Here](./LICENSE)
