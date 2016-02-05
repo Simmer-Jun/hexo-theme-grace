@@ -1,4 +1,4 @@
-# hexo-theme-Grace
+# hexo-theme-grace
 
 一个十分简单的hexo主题，去掉所有我认为不需要的东西，能让你安心于展示内容。
 
@@ -9,9 +9,9 @@ An simple hexo theme.
 
 ## Preview 
 
- * ![预览](demo1.png)
- * ![预览](demo2.png)
- * ![预览](demo3.png)
+ * ![预览](source/images/demo1.png)
+ * ![预览](source/images/demo2.png)
+ * ![预览](source/images/demo3.png)
 
 ## Begain 
 
