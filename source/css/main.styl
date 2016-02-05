@@ -1,0 +1,35 @@
+@import '_partial/fn'
+@import '_partial/base'
+@import '_partial/code'
+@import '_partial/animate'
+@import '_partial/header'
+@import '_partial/content'
+@import '_partial/footer'
+@import '_partial/sider'
+@import '_partial/responsive'
+
+html,body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+code {
+    margin: 0 2px;
+    padding: 3px 5px;
+    color: #de908e
+    border-radius: 2px;
+    white-space: inherit;
+}
+
+table
+    width: 100%;
+    thead
+        background-color: #ddd;
+        th
+            padding: 5px;
+    tbody 
+        tr:nth-child(2n)
+            background-color: #eee;
+        td
+            padding: 5px;

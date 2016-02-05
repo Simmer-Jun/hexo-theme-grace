@@ -1,0 +1,48 @@
+# Header
+menu:
+    主页: /
+    关于: /about/
+    作品集: /2015/03/01/other/work/
+    gitbook: http://hisimmer.com/BKFE/
+
+# header left log
+log: Simmer
+# site favicon
+favicon: /images/favicon.ico
+
+#side
+your_photo: /images/simmer.png
+
+#message
+author: Simer
+from: NanChang China
+
+#link  not support now 
+link:
+   - Twitter
+   - Google
+   - Facebook
+   - Feed
+   - Github
+# Friend  add your friend link to your site
+friend:
+  俞小右: http://www.iyuxy.com/
+  羡辙杂俎: http://zhangwenli.com/blog
+  Bicycle: http://helen123.gitcafe.io/
+  Hyg: http://gaohaoyang.github.io/about/
+  Anotherhome: http://www.anotherhome.net/
+  HalaMyc: http://halamyc.me/
+  彭光宇: http://iflsy.com/pgy/
+  Xheldon: http://www.xheldon.com/
+  ymr: https://ymr.me/
+
+
+# Content
+excerpt_link: Read More
+
+# 多说评论true为开启，需要在_config中指定 duoshuo_shortname
+duoshuo: true
+
+
+archive_type: 'monthly'
+show_count: false

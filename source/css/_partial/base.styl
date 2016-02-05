@@ -1,0 +1,128 @@
+/*  1.  CSS Reset & Clearfix - http://meyerweb.com/eric/tools/css/reset/
+/*-----------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section 
+    display: block;
+
+body 
+    line-height: 1;
+
+ol, ul 
+    list-style: none;
+
+blockquote, q 
+    quotes: none;
+
+blockquote:before, blockquote:after,
+q:before, q:after 
+    content: '';
+    content: none;
+
+table
+    border-collapse: collapse;
+    border-spacing: 0;
+
+input 
+    font-size: 14px;
+    padding: 0;
+    
+.clearfix:after 
+    content: '.';
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+
+
+html
+    font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: 62.5%
+
+
+a
+    text-decoration: none;
+    color: #000;
+    outline: none;
+
+a:hover,
+a:focus {
+    color: red;
+    cursor: pointer;
+}
+
+ul,li {
+    list-style-type: none;
+}
+body 
+    position: relative;
+/************
+* icon font *
+*************/
+@font-face {
+    font-family:icon;
+    src:url(../fonts/icomoon.eot) format("embedded-opentype"),
+    url(../fonts/icomoon.woff) format("woff"),
+    url(../fonts/icomoon.svg) format("svg"),
+    url(../fonts/icomoon.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.icon {
+    font-family: 'icon';
+    font-weight: normal;
+    font-size: inherit;
+}
+
+/*
+***************************     variables
+*/
+
+body-color= #fff
+rem = 10px;
+
+/*
+***********  header -->     
+*/
+
+header-background-color = #f5f8fa;
+header-color = #cf4646;
+header-color = #31c27c;
+header-color = #66757f;
+
+header-hover-color = #0084B4;
+
+main-color= #000;
+body-link-color= #0084B4;
+main-h-border-color = rgb(222,144,142)
+/*
+***********  side -->
+*/
+
+body 
+    background-color: body-color;
+
+
+
+
+

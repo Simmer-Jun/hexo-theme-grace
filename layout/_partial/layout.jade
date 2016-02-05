@@ -1,0 +1,14 @@
+doctype html
+html(lang=theme.language)
+    head
+        include head.jade
+    body
+        header
+            include header.jade
+        section#side(class="side hide")
+            include side.jade
+        section.main
+            block content
+        footer
+            include footer.jade
+        include script.jade

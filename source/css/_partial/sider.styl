@@ -1,0 +1,107 @@
+/*
+************    sidebar style by simmer 2016/1/28 border-readius
+*/
+.side 
+    position: fixed;
+    z-index: 99;
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    top: 10%;
+    left: 0;
+    border-radius:4px;
+    background-color: #0084b4; 
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    font-size: rem*1.6;
+
+.side-row-one
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    
+.side-row-two
+    height: 260px;
+    background-color: #FFF;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    
+.sider-row-two-about 
+    height: 50px;
+    position: relative;
+    
+.favicon 
+    width: 80px;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: -30px;
+.favicon img 
+    width:80px;
+    height: 80px;
+.message
+    margin-left: 120px;
+    padding-top: 8px;
+    text-align: left;
+    & h2
+        font-size: 20px;
+        line-height: 100%;
+        font-weight: normal;
+    & address
+        margin-top: 4px;
+        color: #31c27c;
+.link 
+    text-align: center;
+    height: 32px;
+    margin-top: rem*2.8;
+.link span 
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0 rem*0.8;
+    font-size: 32px;
+    cursor: pointer;
+    color: #cf4646;
+    transition: color 0.3s ease-in-out;
+    &:hover
+        color: #f5f8fa;
+
+.hide .side-row-one, .hide .side-row-two
+    opacity: 0;
+    display: none;
+.side[class~=hide]
+    background-color: #fff;
+    opacity: 0.6;
+.side[class~=hide] svg path
+    stroke: #cf4646;  
+    
+/*
+*****    friend cycle
+*/
+.friend-cycle
+    text-align: left
+    padding-left: rem*2;
+    margin-top: rem*3;
+    h2
+        font-size: 20px;
+        margin-bottom: rem * 1;
+    li 
+        float: left;
+        padding: 4px 6px;
+        margin: 4px 6px;
+        background-color: #de908e;
+        transition: all .3s ease-in-out;
+        & a 
+            color: #fff;
+            
+        &:hover
+            border-radius: 4px;
+            background-color: #31c27c;
+    
+
+
+

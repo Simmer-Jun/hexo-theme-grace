@@ -1,0 +1,6 @@
+div(class='header-inner clearfix')
+    a(class='log',href='/')= theme.log
+    ul(class='nav clearfix')
+        each value, key in theme.menu
+            li
+                a(href=value)= (typeof key === 'string' ? key.toUpperCase(): key)

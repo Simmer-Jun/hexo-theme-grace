@@ -1,0 +1,42 @@
+script(defer='defer',src='/js/animate.min.js')
+script(src="//cdn.bootcss.com/jquery/2.2.0/jquery.js")
+script(defer="defer").
+    window.onload = function() {
+        var tag = false;
+        $('#menu-icon-wrapper').click(function(){
+        if(tag) {
+            $('#side').animate({width: '80px',height:'80px'},function(){
+               document.getElementById('side').className = "side hide";
+            });
+            //console.dir($('#side').animate({width: '40px'}));
+            tag = false;
+        } else {
+            $('#side').animate({width: '300px',height:'360px'}, function(){
+               document.getElementById('side').className = "side ";
+            });
+            tag = true;
+        }
+        });
+        // go to top 
+        function goTop() {
+          $(window).scroll(function(e) {
+              // If the distance between scrollbar and top border is more than 100 pix
+              if($(window).scrollTop() > 200)
+                  $("#go-pg-top").fadeIn().css({ opacity: 0.6 });
+              else
+                  $("#go-pg-top").fadeOut();
+          });
+          };  
+
+          $("#go-pg-top").click(function(e) {
+              $('body,html').animate({scrollTop:0}, 200);
+          });
+          $("#go-pg-top").mouseover(function(e) {
+              $(this).css({ opacity: 1 });
+          });
+          $("#go-pg-top").mouseout(function(e) {
+              $(this).css({ opacity: 0.6 });
+          });
+          // Scroll to top
+          goTop();
+    }

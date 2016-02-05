@@ -1,0 +1,9 @@
+extends _partial/layout
+
+block content
+    include _mixin/cont
+    include _mixin/page
+    include _partial/comment.jade
+    mixin content(page)
+    mixin postpage(page)
+    mixin comment(page)

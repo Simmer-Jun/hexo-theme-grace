@@ -1,0 +1,25 @@
+{
+  "name": "hexo-theme-grace",
+  "version": "1.0.0",
+  "description": "hexo-theme-grace do less see more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simmer-jun/hexo-theme-grace.git"
+  },
+  "keywords": [
+    "node",
+    "hexo",
+    "hexo-theme",
+    "grace"
+  ],
+  "author": "Simmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simmer-jun/hexo-theme-grace/issues"
+  },
+  "homepage": "https://github.com/simmer-jun/hexo-theme-grace#readme"
+}
