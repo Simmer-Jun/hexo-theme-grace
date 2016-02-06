@@ -9,8 +9,7 @@ An simple hexo theme.
 
 ## Preview 
 
- - ![预览](source/images/demo1.png)
- - ![预览](source/images/demo3.png)
+ - ![预览](source/images/demo1.jpeg)
 
 ## Begain 
 
