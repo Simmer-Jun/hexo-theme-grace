@@ -1,8 +1,8 @@
 # hexo-theme-grace
 
-一个十分简单的hexo主题，去掉所有我认为不需要的东西，能让你安心于展示内容。
+一个十分简单，优雅的hexo主题，让你安心于展示内容。
 
-An simple hexo theme.
+An simple && grace hexo theme - hexo-theme-grace.
 
  - 可以访问我的[博客](http://hisimmer.com/)预览
  - [Preview online ](http://hisimmer.com/)
@@ -12,13 +12,6 @@ An simple hexo theme.
 ### Install
 
 ```bash
-<<<<<<< Updated upstream
-$ cd your-hexo-site
-
-$ git clone https://github.com/Simmer-Jun/hexo-theme-grace
-=======
->>>>>>> Stashed changes
-
 $ npm install hexo-cli -g
 $ hexo init blog
 $ cd blog
@@ -88,9 +81,9 @@ duoshuo: true
 ```
 ## Preview
 
-![预览](source/images/demo1.png)
+![预览](source/images/demo11.png)
 
-![预览](source/images/demo2.png))
+![预览](source/images/demo12.png)
 
 欢迎使用你的新主题 ^(O_o)%
 
