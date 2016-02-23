@@ -30,8 +30,10 @@ header
     margin-left: rem*2;
     max-width: 200px;
     overflow: hidden;
-    color: header-color;
+    color: #000;
     transition: color 0.3s ease-in-out;
+    &:hover 
+        color: header-hover-color;
     
 .nav
     max-width: 60%;
@@ -47,7 +49,7 @@ header
 .nav a 
     display: block;
     padding: 0 2.4rem;
-    border-bottom: 2px solid #f5f8fa;
+    border-bottom: 2px solid header-background-color;
     color: header-color;
     font-weight: normal;
     transition: all 0.3s ease-in-out;

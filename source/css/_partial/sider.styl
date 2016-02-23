@@ -1,6 +1,9 @@
-/*
+ /*
 ************    sidebar style by simmer 2016/1/28 border-readius
 */
+/*   import css animate  stylesheet  */
+@import '../_base/animate' 
+
 .side 
     position: fixed;
     z-index: 99;
@@ -10,7 +13,7 @@
     top: 10%;
     left: 0;
     border-radius:4px;
-    background-color: #0084b4; 
+    background-color: side-background-color; 
     transition: all 0.3s ease-in-out;
     overflow: hidden;
     font-size: rem*1.6;
@@ -23,7 +26,7 @@
     
 .side-row-two
     height: 260px;
-    background-color: #FFF;
+    background-color: #fcfcfc;
     transition: all 0.3s ease-in-out;
     text-align: center;
     
@@ -77,7 +80,7 @@
     background-color: #fff;
     opacity: 0.6;
 .side[class~=hide] svg path
-    stroke: #cf4646;  
+    stroke: side-animate-icon-color;  
     
 /*
 *****    friend cycle
@@ -93,14 +96,15 @@
         float: left;
         padding: 4px 6px;
         margin: 4px 6px;
-        background-color: #de908e;
+        color: side-friend-item-color;
+        background-color: friend-item-bgcolor;
         transition: all .3s ease-in-out;
         & a 
             color: #fff;
             
         &:hover
             border-radius: 4px;
-            background-color: #31c27c;
+            background-color: friend-item-bghover-color;
     
 
 

@@ -2,18 +2,22 @@
 **************   footer stylesheet -->
 */
 
-footer
-    margin-top: 30px;
-    padidng-bottom: 30px;
+footer  
     color: #fff;
-    background-color: #2e2e2e;
-.copyright 
-    font-size: 15px;
     text-align: center;
+    padding: 12px 0 10px 0;
+    background-color: #000;
+.copyright 
+    max-width: 780px;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    padding-left: rem*2;
     & p
-        padding: rem 0;
+        padding: 5px 0;
+        text-align: left;
     & a
-        color: #f5f8fa;
+        color: #de908e;
         &:hover
             color: #fff;
 
@@ -38,3 +42,12 @@ footer
     padding: 10px;
     font-size: 12px;
     cursor: pointer;
+    z-index: 999;
+    
+/*
+****** cnzz 流量统计
+*/
+.cnzz {
+    position: fixed; 
+    bottom: -100px;
+}

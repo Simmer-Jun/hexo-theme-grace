@@ -1,6 +1,6 @@
-/*  1.  CSS Reset & Clearfix - http://meyerweb.com/eric/tools/css/reset/
-/*-----------------------------------------------------------------------------------*/
-
+/*
+************   css reset -->
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,37 +45,33 @@ table
 input 
     font-size: 14px;
     padding: 0;
-    
+/*
+**********    base stylesheet
+*/   
 .clearfix:after 
     content: '.';
     clear: both;
     display: block;
     visibility: hidden;
     height: 0;
-
+.clearfix
+    *zoom: 1;
 
 html
     font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #000;
     font-size: 62.5%
-
-
+    font-family: "Microsoft YaHei" !important;
+body 
+    background-color: body-color;
 a
     text-decoration: none;
     color: #000;
     outline: none;
 
-a:hover,
-a:focus {
-    color: red;
-    cursor: pointer;
-}
-
-ul,li {
+ul,li
     list-style-type: none;
-}
-body 
-    position: relative;
+
 /************
 * icon font *
 *************/
@@ -95,7 +91,7 @@ body
 }
 
 /*
-***************************     variables
+***************************     variable
 */
 
 body-color= #fff
@@ -104,25 +100,52 @@ rem = 10px;
 /*
 ***********  header -->     
 */
+header-background-color = #fff;
+header-color = #66757f; 
+header-hover-color = #de908e;
 
-header-background-color = #f5f8fa;
-header-color = #cf4646;
-header-color = #31c27c;
-header-color = #66757f;
-
-header-hover-color = #0084B4;
-
-main-color= #000;
+/*
+***********  main body variable-->
+*/
+main-color= #66757f;
+main-title-color= #66757f;
+post-title-color= #66757f;
 body-link-color= #0084B4;
+body-link-color= #66757f;
 main-h-border-color = rgb(222,144,142)
 /*
-***********  side -->
+***********  main code variable
 */
 
-body 
-    background-color: body-color;
+highlight-background = #2d2d2d
+highlight-current-line = #393939
+highlight-selection = #515151
+highlight-foreground = #cccccc
+highlight-comment = #eeffc6
+highlight-red = #b0fefb
+highlight-orange = #f7a278
+highlight-yellow = #ffcc66
+highlight-green = #99cc99
+highlight-aqua = #66cccc
+highlight-blue = #6699cc
+highlight-purple = #cc99cc
 
+article-padding = 10px;
+color-border = #2e2e2e;
+highlight-foreground = #6dd3ce;
+font-size = 14px;
+line-height = 1.6em;
+line-height-title = 1.1em;
+font-mono = "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+color-background = #eee;
 
-
+/*
+***********  side variable-->
+*/ 
+side-background-color = #0084b4;
+side-animate-icon-color = #cf4646; 
+side-friend-item-color = #fff;
+friend-item-bgcolor = #de908e; 
+friend-item-bghover-color = #31c27c;
 
 
