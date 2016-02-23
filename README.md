@@ -7,14 +7,7 @@ An simple hexo theme.
  - 可以访问我的[博客](http://hisimmer.com/)预览
  - [Preview online ](http://hisimmer.com/)
 
-<<<<<<< Updated upstream
-## Preview 
-
- - ![预览](source/images/demo1.jpeg)
-
 ## Begain 
-=======
->>>>>>> Stashed changes
 
 ### Install
 
@@ -95,11 +88,11 @@ duoshuo: true
 ```
 ## Preview
 
- * ![预览](source/images/demo1.png)
- * ![预览](source/images/demo2.png))
+![预览](source/images/demo1.png)
 
+![预览](source/images/demo2.png))
 
-欢迎使用你的新主题
+欢迎使用你的新主题 ^(O_o)%
 
 ## LISCENSE (MIT)
 
